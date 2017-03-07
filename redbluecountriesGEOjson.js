@@ -34,7 +34,7 @@ var countries = {
          "properties":{
             "name":"Colombia",
             "continent":"Americas",
-            "population":"45,569,000"
+            "population":"45,500,000"
          },
          "geometry":{
             "type":"Polygon",
@@ -450,7 +450,7 @@ var countries = {
          "properties":{
             "name":"Mexico",
             "continent":"Americas",
-            "population":"108,396,211"
+            "population":"108,400,000"
          },
          "geometry":{
             "type":"Polygon",
