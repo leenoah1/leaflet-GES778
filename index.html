@@ -42,8 +42,8 @@
 	}).addTo(map);	
     // Add pop-up information (name & population) to the highlighted countries
 	function onEachFeature(feature, layer) {
-		var popupContent = "<u><b>Country</b></u>: " + feature.properties.name + "</br>" +
-				 "<u><b>Population</b></u>: " + feature.properties.population;
+		var popupContent = "Country: " + feature.properties.name + "</br>" +
+				 "Population: " + feature.properties.population;
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
 		}
